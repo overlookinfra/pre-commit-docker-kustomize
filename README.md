@@ -15,7 +15,7 @@ repos:
         args: [--allow-multiple-documents]
     -   id: check-added-large-files
 -   repo: https://github.com/puppetlabs/pre-commit-docker-kustomize
-    rev: v1.0.0
+    rev: v4.5.5
     hooks:
     -   id: kustomize
         name: kustomize-development
